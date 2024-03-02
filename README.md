@@ -42,3 +42,11 @@ At the Terminal
 
 - knex migrate:make Table_Name
 - knex migrate:latest
+
+### Step 5: Table seeds
+
+At the Terminal
+
+- knex seed:make 01-table_Name
+  (Note: To populate the tables to be run with data, it is important to list them)
+- knex seed:run (Note: To run the seeds and load the data, check on pgAdmin)

@@ -56,3 +56,10 @@ At the Terminal
 Create in the root folder:
 
 - server.js
+- At the Terminal `npm run dev`
+
+### Step 7: Controllers and Routes (test)
+
+- Create a folder in the root: controllers and inside a file productController.js
+- Create a folder in the root: routes and inside a file productRoutes.js
+- test: `http://localhost:3000/api/v1/products`

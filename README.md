@@ -50,3 +50,9 @@ At the Terminal
 - knex seed:make 01-table_Name
   (Note: To populate the tables to be run with data, it is important to list them)
 - knex seed:run (Note: To run the seeds and load the data, check on pgAdmin)
+
+### Step 6: Server configuration
+
+Create in the root folder:
+
+- server.js

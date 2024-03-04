@@ -63,3 +63,9 @@ Create in the root folder:
 - Create a folder in the root: controllers and inside a file productController.js
 - Create a folder in the root: routes and inside a file productRoutes.js
 - test: `http://localhost:3000/api/v1/products`
+
+### Step 8: Models, Controllers and Routes (real)
+
+- Create a folder in the root: models and inside a file Products.js
+- Modify files: productController.js and productRoutes.js
+- Review in Insomnia or Postman

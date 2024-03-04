@@ -1,21 +1,27 @@
 # storeBackendSQL
 
+storeBackendSQL with PostgreSQL, Express, Knex, dotenv, nodemon and [Node.js](https://nodejs.org/en)
+
+![](./Entity-RelationshipModel.jpg)
+
+Follow the steps and commits.
+
 ### Step 1: Initialize
 
 - npm init -y
 
 ### Step 2: Configuration
 
-- npm i express knex pg
-- npm i standard -D
-- npm i nodemon
+- npm i [express](https://expressjs.com/) [knex](https://knexjs.org/guide/) [pg](https://www.pgadmin.org/)
+- npm i [standard](https://standardjs.com/) -D
+- npm i [nodemon](https://www.npmjs.com/package/nodemon)
 
 ### Step 3: Environment Variables
 
 At the Terminal
 
-- knex init
-- npm i dotenv
+- `knex init`
+- npm i [dotenv](https://www.npmjs.com/package/dotenv)
 
 Create in the root folder:
 
@@ -40,16 +46,16 @@ Create in the root folder:
 
 At the Terminal
 
-- knex migrate:make Table_Name
-- knex migrate:latest
+- `knex migrate:make Table_Name`
+- `knex migrate:latest`
 
 ### Step 5: Table seeds
 
 At the Terminal
 
-- knex seed:make 01-table_Name
+- `knex seed:make 01-table_Name`
   (Note: To populate the tables to be run with data, it is important to list them)
-- knex seed:run (Note: To run the seeds and load the data, check on pgAdmin)
+- `knex seed:run` (Note: To run the seeds and load the data, check on pgAdmin)
 
 ### Step 6: Server configuration
 

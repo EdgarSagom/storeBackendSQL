@@ -69,3 +69,5 @@ Create in the root folder:
 - Create a folder in the root: models and inside a file Products.js
 - Modify files: productController.js and productRoutes.js
 - Review in Insomnia or Postman
+
+### Step 9: Added endpoints for products table

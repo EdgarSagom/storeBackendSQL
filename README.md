@@ -73,3 +73,5 @@ Create in the root folder:
 ### Step 9: Added endpoints for products table
 
 ### Step 10: Added endpoints for customers table
+
+### Step 11: Added endpoints for shops table

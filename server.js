@@ -1,5 +1,6 @@
 const express = require('express')
 const productRoutes = require('./routes/productRoutes')
+const customerRoutes = require('./routes/customerRoutes')
 
 const app = express()
 
@@ -9,6 +10,7 @@ app.use(express.json())
 
 /* Routes */
 app.use('/api/v1', productRoutes)
+app.use('/api/v1', customerRoutes)
 
 /* Server up */
 app.listen(3000, () => {

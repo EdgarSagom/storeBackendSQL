@@ -71,3 +71,5 @@ Create in the root folder:
 - Review in Insomnia or Postman
 
 ### Step 9: Added endpoints for products table
+
+### Step 10: Added endpoints for customers table
